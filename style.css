@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+  background-color: #fdfeff;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  margin-bottom: 1.6;
+}
+
+/* navbar */
+.hero-section {
+  height: 100vh;
+  background-color: #7030cc;
+}
+.container {
+  max-width: 1100px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 2rem;
+}
+.logo {
+  width: 120px;
+}
+.navbar {
+  font-size: 1.2rem;
+}
+
+.navbar .container {
+  display: flex;
+  height: 70px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar ul {
+  justify-self: flex-end;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar a {
+  color: #fff;
+  margin: 0 1rem;
+  font-size: 1rem;
+}
+.navbar a:hover {
+  color: #ddd;
+}
+.btn {
+  border: none;
+  padding: 10px 25px;
+  border-radius: 5px;
+  text-align: center;
+  background: #09c6f9;
+}
+
+/* section-1 */
+.main-section .container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-content: center;
+  grid-gap: 2rem;
+}
+.section-a {
+  margin-top: 2rem;
+}
+.section-a h1 {
+  font-size: 3.5rem;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+.section-a p {
+  color: #ddd;
+}
+
+/* section-b */
+.section-b {
+  height: 100vh;
+}
+.section-b .container {
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.list {
+  margin: 1.8rem 0;
+  padding-left: 20px;
+}
+.section-b p {
+  color: #333;
+}
+
+/* section-c */
+.section-c {
+  height: 300px;
+}
+
+.section-c h2 {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.card-section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+  text-align: center;
+  margin: 3rem 0;
+}
+.card {
+  
+  border-radius: 13px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.card img {
+  margin-top: 15px;
+  border-radius: 50%;
+ 
+  background-color: antiquewhite;
+}
+.card-footer:hover {
+  background-color: #7030cc;
+  border-radius: 13px;
+  color: #fff;
+}
